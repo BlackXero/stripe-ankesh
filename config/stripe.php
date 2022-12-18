@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'STRIPE_PUBLIC_KEY' => env('STRIPE_KEY'),
+    'STRIPE_PRIVATE_KEY' => env('STRIPE_SECRET'),
+    'STRIPE_WEBHOOK_SECRET' => env('STRIPE_WEBHOOK_SECRET')
+];
